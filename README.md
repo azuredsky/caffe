@@ -22,6 +22,13 @@ Framework development discussions and thorough bug reports are collected on [Iss
 
 Happy brewing!
 
+modify!!!!!  \boost-1_61\boost\config\compiler\nvcc.hpp
+
+//#if !defined(__CUDACC_VER__) || (__CUDACC_VER__ < 70500)
+//#   define BOOST_NO_CXX11_VARIADIC_TEMPLATES
+//#endif
+
+
 ## License and Citation
 
 Caffe is released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE).
